@@ -1,9 +1,8 @@
 
 import { createRoot } from 'react-dom/client'
-
+import App from './Component/App'
 
 
 createRoot(document.querySelector("#root")).render(
-  <h1>Hello</h1>
-  
+  <App/> 
 )
